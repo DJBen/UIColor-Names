@@ -19,7 +19,14 @@ What does it do?
 
         NSLog("Name = %@", [color possibleNamesWithRanking:10]); // Get the top 10 best-matched color with your color
 
+3.  Initialize a color object from name
+
+        UIColor *color = [UIColor colorWithName:@"Snow"];
 
 Usage
 -------------
 Copy the UIColor+Names folder to your project. Add `#import "UIColor+Names.h"` to the headers of your source code.
+
+Screenshot
+-------------
+
