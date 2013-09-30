@@ -1,0 +1,16 @@
+PODS:
+  - iCarousel (1.7.6)
+  - iOS-color-wheel (0.1)
+  - UIColor-HexString (1.0.1)
+
+DEPENDENCIES:
+  - iCarousel
+  - iOS-color-wheel
+  - UIColor-HexString
+
+SPEC CHECKSUMS:
+  iCarousel: e23a26d7ba722215a42144e80adb0dcb59bebc41
+  iOS-color-wheel: 2443ebb94c5bddc56129a1829ad254001a5c0732
+  UIColor-HexString: 8a3f512f71b6d94a2cf6bdeabcad2f3532f31b5a
+
+COCOAPODS: 0.22.1

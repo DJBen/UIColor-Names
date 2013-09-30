@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import <iCarousel.h>
+
+@class ISColorWheel;
+@interface ViewController : UIViewController <iCarouselDataSource, iCarouselDelegate>
+
+@property (strong, nonatomic) ISColorWheel *colorWheel;
+@property (weak, nonatomic) IBOutlet iCarousel *carousel;
 
 @end

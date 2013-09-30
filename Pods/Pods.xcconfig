@@ -1,0 +1,7 @@
+#include "Pods-UIColor-HexString.xcconfig"
+#include "Pods-iCarousel.xcconfig"
+#include "Pods-iOS-color-wheel.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers" "${PODS_ROOT}/Headers/UIColor-HexString" "${PODS_ROOT}/Headers/iCarousel" "${PODS_ROOT}/Headers/iOS-color-wheel"
+OTHER_LDFLAGS = -ObjC ${PODS_ICAROUSEL_OTHER_LDFLAGS} ${PODS_IOS_COLOR_WHEEL_OTHER_LDFLAGS}
+PODS_ROOT = ${SRCROOT}/Pods

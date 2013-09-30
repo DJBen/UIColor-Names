@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-UIColor-HexString.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-iCarousel.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-iOS-color-wheel.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>38ACF2763D5D42809D790068</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A49CB0B4DF0F4DE8B40405E7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A5F4839C693049D0815D7B3E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C827F144AE224DD989B6DD8E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D312B9DEEB1B48C3A6280A45</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F02D1CD81BFA4DF68A2FC5C4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

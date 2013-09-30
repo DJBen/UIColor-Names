@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A6E36891B3C14EF3B23230A0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1D60B0693A48308B4C79FD /* libPods.a */; };
 		F41AF23217E8BF6300655B52 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41AF23117E8BF6300655B52 /* Foundation.framework */; };
 		F41AF23417E8BF6300655B52 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41AF23317E8BF6300655B52 /* CoreGraphics.framework */; };
 		F41AF23617E8BF6300655B52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41AF23517E8BF6300655B52 /* UIKit.framework */; };
@@ -21,6 +22,8 @@
 		F41AF25317E8BF6400655B52 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F41AF23517E8BF6300655B52 /* UIKit.framework */; };
 		F41AF25B17E8BF6400655B52 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F41AF25917E8BF6400655B52 /* InfoPlist.strings */; };
 		F41AF25D17E8BF6400655B52 /* UIColor_Name_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F41AF25C17E8BF6400655B52 /* UIColor_Name_ExampleTests.m */; };
+		F41AF26F17E8E91800655B52 /* UIColor+Names.m in Sources */ = {isa = PBXBuildFile; fileRef = F41AF26D17E8E91800655B52 /* UIColor+Names.m */; };
+		F41AF27117E8EFC700655B52 /* ColorNames.plist in Resources */ = {isa = PBXBuildFile; fileRef = F41AF27017E8EFC700655B52 /* ColorNames.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +37,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F41AF22E17E8BF6200655B52 /* UIColor+Name Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIColor+Name Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1292BD280D4548EEB8502697 /* Pods/Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		5C1D60B0693A48308B4C79FD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41AF22E17E8BF6200655B52 /* UIColor+Names Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIColor+Names Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41AF23117E8BF6300655B52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F41AF23317E8BF6300655B52 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		F41AF23517E8BF6300655B52 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		F41AF23917E8BF6300655B52 /* UIColor+Name Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIColor+Name Example-Info.plist"; sourceTree = "<group>"; };
+		F41AF23917E8BF6300655B52 /* UIColor+Names Example-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIColor+Names Example-Info.plist"; sourceTree = "<group>"; };
 		F41AF23B17E8BF6300655B52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F41AF23D17E8BF6300655B52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F41AF23F17E8BF6300655B52 /* UIColor+Name Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Name Example-Prefix.pch"; sourceTree = "<group>"; };
+		F41AF23F17E8BF6300655B52 /* UIColor+Names Example-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Names Example-Prefix.pch"; sourceTree = "<group>"; };
 		F41AF24017E8BF6300655B52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F41AF24117E8BF6300655B52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F41AF24417E8BF6300655B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F41AF24617E8BF6300655B52 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F41AF24717E8BF6300655B52 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F41AF24917E8BF6300655B52 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		F41AF24F17E8BF6400655B52 /* UIColor+Name ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIColor+Name ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41AF24F17E8BF6400655B52 /* UIColor+Names ExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UIColor+Names ExampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F41AF25017E8BF6400655B52 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F41AF25817E8BF6400655B52 /* UIColor+Name ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIColor+Name ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		F41AF25A17E8BF6400655B52 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F41AF25C17E8BF6400655B52 /* UIColor_Name_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIColor_Name_ExampleTests.m; sourceTree = "<group>"; };
+		F41AF26D17E8E91800655B52 /* UIColor+Names.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Names.m"; sourceTree = "<group>"; };
+		F41AF26E17E8E91800655B52 /* UIColor+Names.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Names.h"; sourceTree = "<group>"; };
+		F41AF27017E8EFC700655B52 /* ColorNames.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ColorNames.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,7 @@
 				F41AF23417E8BF6300655B52 /* CoreGraphics.framework in Frameworks */,
 				F41AF23617E8BF6300655B52 /* UIKit.framework in Frameworks */,
 				F41AF23217E8BF6300655B52 /* Foundation.framework in Frameworks */,
+				A6E36891B3C14EF3B23230A0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,18 +91,19 @@
 		F41AF22517E8BF6200655B52 = {
 			isa = PBXGroup;
 			children = (
-				F41AF23717E8BF6300655B52 /* UIColor+Name Example */,
+				F41AF23717E8BF6300655B52 /* UIColor+Names Example */,
 				F41AF25617E8BF6400655B52 /* UIColor+Name ExampleTests */,
 				F41AF23017E8BF6200655B52 /* Frameworks */,
 				F41AF22F17E8BF6200655B52 /* Products */,
+				1292BD280D4548EEB8502697 /* Pods/Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
 		F41AF22F17E8BF6200655B52 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F41AF22E17E8BF6200655B52 /* UIColor+Name Example.app */,
-				F41AF24F17E8BF6400655B52 /* UIColor+Name ExampleTests.xctest */,
+				F41AF22E17E8BF6200655B52 /* UIColor+Names Example.app */,
+				F41AF24F17E8BF6400655B52 /* UIColor+Names ExampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,11 +115,12 @@
 				F41AF23317E8BF6300655B52 /* CoreGraphics.framework */,
 				F41AF23517E8BF6300655B52 /* UIKit.framework */,
 				F41AF25017E8BF6400655B52 /* XCTest.framework */,
+				5C1D60B0693A48308B4C79FD /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F41AF23717E8BF6300655B52 /* UIColor+Name Example */ = {
+		F41AF23717E8BF6300655B52 /* UIColor+Names Example */ = {
 			isa = PBXGroup;
 			children = (
 				F41AF24017E8BF6300655B52 /* AppDelegate.h */,
@@ -118,18 +129,20 @@
 				F41AF24617E8BF6300655B52 /* ViewController.h */,
 				F41AF24717E8BF6300655B52 /* ViewController.m */,
 				F41AF24917E8BF6300655B52 /* Images.xcassets */,
+				F41AF26C17E8E90C00655B52 /* UIColor+Names */,
 				F41AF23817E8BF6300655B52 /* Supporting Files */,
 			);
+			name = "UIColor+Names Example";
 			path = "UIColor+Name Example";
 			sourceTree = "<group>";
 		};
 		F41AF23817E8BF6300655B52 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F41AF23917E8BF6300655B52 /* UIColor+Name Example-Info.plist */,
+				F41AF23917E8BF6300655B52 /* UIColor+Names Example-Info.plist */,
 				F41AF23A17E8BF6300655B52 /* InfoPlist.strings */,
 				F41AF23D17E8BF6300655B52 /* main.m */,
-				F41AF23F17E8BF6300655B52 /* UIColor+Name Example-Prefix.pch */,
+				F41AF23F17E8BF6300655B52 /* UIColor+Names Example-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -152,29 +165,41 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F41AF26C17E8E90C00655B52 /* UIColor+Names */ = {
+			isa = PBXGroup;
+			children = (
+				F41AF26E17E8E91800655B52 /* UIColor+Names.h */,
+				F41AF26D17E8E91800655B52 /* UIColor+Names.m */,
+				F41AF27017E8EFC700655B52 /* ColorNames.plist */,
+			);
+			name = "UIColor+Names";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F41AF22D17E8BF6200655B52 /* UIColor+Name Example */ = {
+		F41AF22D17E8BF6200655B52 /* UIColor+Names Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F41AF26017E8BF6400655B52 /* Build configuration list for PBXNativeTarget "UIColor+Name Example" */;
+			buildConfigurationList = F41AF26017E8BF6400655B52 /* Build configuration list for PBXNativeTarget "UIColor+Names Example" */;
 			buildPhases = (
+				4891DADB95E74DA88951A472 /* Check Pods Manifest.lock */,
 				F41AF22A17E8BF6200655B52 /* Sources */,
 				F41AF22B17E8BF6200655B52 /* Frameworks */,
 				F41AF22C17E8BF6200655B52 /* Resources */,
+				41D8D746D45C4D6BAEB9F158 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "UIColor+Name Example";
+			name = "UIColor+Names Example";
 			productName = "UIColor+Name Example";
-			productReference = F41AF22E17E8BF6200655B52 /* UIColor+Name Example.app */;
+			productReference = F41AF22E17E8BF6200655B52 /* UIColor+Names Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F41AF24E17E8BF6400655B52 /* UIColor+Name ExampleTests */ = {
+		F41AF24E17E8BF6400655B52 /* UIColor+Names ExampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F41AF26317E8BF6400655B52 /* Build configuration list for PBXNativeTarget "UIColor+Name ExampleTests" */;
+			buildConfigurationList = F41AF26317E8BF6400655B52 /* Build configuration list for PBXNativeTarget "UIColor+Names ExampleTests" */;
 			buildPhases = (
 				F41AF24B17E8BF6400655B52 /* Sources */,
 				F41AF24C17E8BF6400655B52 /* Frameworks */,
@@ -185,9 +210,9 @@
 			dependencies = (
 				F41AF25517E8BF6400655B52 /* PBXTargetDependency */,
 			);
-			name = "UIColor+Name ExampleTests";
+			name = "UIColor+Names ExampleTests";
 			productName = "UIColor+Name ExampleTests";
-			productReference = F41AF24F17E8BF6400655B52 /* UIColor+Name ExampleTests.xctest */;
+			productReference = F41AF24F17E8BF6400655B52 /* UIColor+Names ExampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -204,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F41AF22917E8BF6200655B52 /* Build configuration list for PBXProject "UIColor+Name Example" */;
+			buildConfigurationList = F41AF22917E8BF6200655B52 /* Build configuration list for PBXProject "UIColor+Names Example" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -217,8 +242,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F41AF22D17E8BF6200655B52 /* UIColor+Name Example */,
-				F41AF24E17E8BF6400655B52 /* UIColor+Name ExampleTests */,
+				F41AF22D17E8BF6200655B52 /* UIColor+Names Example */,
+				F41AF24E17E8BF6400655B52 /* UIColor+Names ExampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F41AF24A17E8BF6300655B52 /* Images.xcassets in Resources */,
+				F41AF27117E8EFC700655B52 /* ColorNames.plist in Resources */,
 				F41AF23C17E8BF6300655B52 /* InfoPlist.strings in Resources */,
 				F41AF24517E8BF6300655B52 /* Main.storyboard in Resources */,
 			);
@@ -244,6 +270,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		41D8D746D45C4D6BAEB9F158 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4891DADB95E74DA88951A472 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F41AF22A17E8BF6200655B52 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -251,6 +310,7 @@
 			files = (
 				F41AF24817E8BF6300655B52 /* ViewController.m in Sources */,
 				F41AF24217E8BF6300655B52 /* AppDelegate.m in Sources */,
+				F41AF26F17E8E91800655B52 /* UIColor+Names.m in Sources */,
 				F41AF23E17E8BF6300655B52 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +328,7 @@
 /* Begin PBXTargetDependency section */
 		F41AF25517E8BF6400655B52 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F41AF22D17E8BF6200655B52 /* UIColor+Name Example */;
+			target = F41AF22D17E8BF6200655B52 /* UIColor+Names Example */;
 			targetProxy = F41AF25417E8BF6400655B52 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -375,26 +435,28 @@
 		};
 		F41AF26117E8BF6400655B52 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1292BD280D4548EEB8502697 /* Pods/Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIColor+Name Example/UIColor+Name Example-Prefix.pch";
-				INFOPLIST_FILE = "UIColor+Name Example/UIColor+Name Example-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "UIColor+Name Example/UIColor+Names Example-Prefix.pch";
+				INFOPLIST_FILE = "UIColor+Name Example/UIColor+Names Example-Info.plist";
+				PRODUCT_NAME = "UIColor+Names Example";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		F41AF26217E8BF6400655B52 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1292BD280D4548EEB8502697 /* Pods/Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UIColor+Name Example/UIColor+Name Example-Prefix.pch";
-				INFOPLIST_FILE = "UIColor+Name Example/UIColor+Name Example-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "UIColor+Name Example/UIColor+Names Example-Prefix.pch";
+				INFOPLIST_FILE = "UIColor+Name Example/UIColor+Names Example-Info.plist";
+				PRODUCT_NAME = "UIColor+Names Example";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -416,7 +478,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "UIColor+Name ExampleTests/UIColor+Name ExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "UIColor+Names ExampleTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -435,7 +497,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UIColor+Name Example/UIColor+Name Example-Prefix.pch";
 				INFOPLIST_FILE = "UIColor+Name ExampleTests/UIColor+Name ExampleTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "UIColor+Names ExampleTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -444,7 +506,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F41AF22917E8BF6200655B52 /* Build configuration list for PBXProject "UIColor+Name Example" */ = {
+		F41AF22917E8BF6200655B52 /* Build configuration list for PBXProject "UIColor+Names Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F41AF25E17E8BF6400655B52 /* Debug */,
@@ -453,21 +515,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F41AF26017E8BF6400655B52 /* Build configuration list for PBXNativeTarget "UIColor+Name Example" */ = {
+		F41AF26017E8BF6400655B52 /* Build configuration list for PBXNativeTarget "UIColor+Names Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F41AF26117E8BF6400655B52 /* Debug */,
 				F41AF26217E8BF6400655B52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F41AF26317E8BF6400655B52 /* Build configuration list for PBXNativeTarget "UIColor+Name ExampleTests" */ = {
+		F41AF26317E8BF6400655B52 /* Build configuration list for PBXNativeTarget "UIColor+Names ExampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F41AF26417E8BF6400655B52 /* Debug */,
 				F41AF26517E8BF6400655B52 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F41AF22D17E8BF6200655B52"
-               BuildableName = "UIColor+Name Example.app"
-               BlueprintName = "UIColor+Name Example"
-               ReferencedContainer = "container:UIColor+Name Example.xcodeproj">
+               BuildableName = "UIColor+Names Example.app"
+               BlueprintName = "UIColor+Names Example"
+               ReferencedContainer = "container:UIColor+Names Example.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "F41AF24E17E8BF6400655B52"
-               BuildableName = "UIColor+Name ExampleTests.xctest"
-               BlueprintName = "UIColor+Name ExampleTests"
-               ReferencedContainer = "container:UIColor+Name Example.xcodeproj">
+               BuildableName = "UIColor+Names ExampleTests.xctest"
+               BlueprintName = "UIColor+Names ExampleTests"
+               ReferencedContainer = "container:UIColor+Names Example.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F41AF22D17E8BF6200655B52"
-            BuildableName = "UIColor+Name Example.app"
-            BlueprintName = "UIColor+Name Example"
-            ReferencedContainer = "container:UIColor+Name Example.xcodeproj">
+            BuildableName = "UIColor+Names Example.app"
+            BlueprintName = "UIColor+Names Example"
+            ReferencedContainer = "container:UIColor+Names Example.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F41AF22D17E8BF6200655B52"
-            BuildableName = "UIColor+Name Example.app"
-            BlueprintName = "UIColor+Name Example"
-            ReferencedContainer = "container:UIColor+Name Example.xcodeproj">
+            BuildableName = "UIColor+Names Example.app"
+            BlueprintName = "UIColor+Names Example"
+            ReferencedContainer = "container:UIColor+Names Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "F41AF22D17E8BF6200655B52"
-            BuildableName = "UIColor+Name Example.app"
-            BlueprintName = "UIColor+Name Example"
-            ReferencedContainer = "container:UIColor+Name Example.xcodeproj">
+            BuildableName = "UIColor+Names Example.app"
+            BlueprintName = "UIColor+Names Example"
+            ReferencedContainer = "container:UIColor+Names Example.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
