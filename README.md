@@ -29,4 +29,4 @@ Copy the UIColor+Names folder to your project. Add `#import "UIColor+Names.h"` t
 
 Screenshot
 -------------
-![https://raw.github.com/DJBen/UIColor-Names/master/Screenshot%202013.09.30%2013.56.00.png]()
+![Screenshot](https://raw.github.com/DJBen/UIColor-Names/master/Screenshot%202013.09.30%2013.56.00.png)
